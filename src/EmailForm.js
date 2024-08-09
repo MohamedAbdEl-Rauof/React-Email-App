@@ -13,6 +13,7 @@ const EmailForm = () => {
         e.preventDefault();
 
         const templateParams = {
+            to_name: 'Raouf', 
             from_name: name,
             from_email: email,
             message: message,
